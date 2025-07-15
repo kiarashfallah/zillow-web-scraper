@@ -1,9 +1,8 @@
-# zillow-web-scraper
-Advanced Zillow real estate scraper built with Python and Playwright. Extracts property data into CSV using browser automation and regex parsing.
-
 # 🏠 Zillow Web Scraper – Data Collection Sample
 
 This project demonstrates my ability to extract structured real estate data from complex websites like Zillow using browser automation.
+
+---
 
 ## ✅ Project Summary
 
@@ -19,15 +18,29 @@ This project demonstrates my ability to extract structured real estate data from
 
 > ⚠️ Due to the proprietary nature of the scraping method, the source code is not public.
 
+---
+
 ## 📂 Output Example
 
-| Address                  | Price     | Beds | Baths | Sqft  | Type    |
-|--------------------------|-----------|------|-------|-------|---------|
-| 123 Main St, SF, CA      | $1,250,000| 3    | 2     | 1,800 | House   |
+Here is one of the properties extracted:
+
+| Address                             | Price     | Beds | Baths | Sqft  | Type  | Link |
+|-------------------------------------|-----------|------|-------|-------|-------|------|
+| 682 London St, San Francisco, CA 94112 | $1,195,000 | 3    | 2     | 1,735 | House | [View Listing](https://www.zillow.com/homedetails/682-London-St-San-Francisco-CA-94112/15176449_zpid/) |
+
+> Full data available in `sample_output.csv`
+
+---
 
 ## 💬 Why This Matters
 
 Web scraping isn't just about extracting data — it’s about navigating dynamic pages, overcoming anti-bot protection, and delivering accurate results.
+
+This project demonstrates:
+- Mastery of browser automation with Playwright
+- Dynamic page interaction (infinite scroll, pagination)
+- Clean data parsing using Python and regex
+- Professional data delivery in structured formats
 
 ---
 

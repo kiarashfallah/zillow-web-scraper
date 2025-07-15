@@ -59,8 +59,8 @@ def extract_property_info(text):
     return info
 
 # Start Chrome and navigate
-chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
-profile_path = r"C:\Users\kiara\OneDrive\Desktop\scraper\scraping_profile"
+chrome_path = r"C:\chrome.exe"
+profile_path = r"C:\Users\[username]\scraper\scraping_profile"
 
 subprocess.Popen([
     chrome_path,
